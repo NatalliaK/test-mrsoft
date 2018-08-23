@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Test Task</title>
+</head>
+<body>
+	<div id="container" class="container">
+		<div id="preload" class="preload">Wait...</div>
+		<label class="label">
+			<span class="text text-input">Введите число или строку для сортировки</span>
+			<input class="input" type="text" placeholder="Введите данные для сортировки">
+		</label>
+		<label class="label">
+			<input type="checkbox">
+			<span class="text">Сравнить с учетом регистра</span>
+		</label>
+		<div class="cont-btn">
+			<button class="btn btn-sort" id="sort-num">Сортировать по числу символов</button>
+			<button class="btn btn-sort" id="sort-str">Найти по подстроке</button>
+		</div>
+	</div>
+	<script src="api.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body {
+	width: 100%;
+	height: 100%;
+
+	box-sizing: border-box;
+	font-size: 16px;
+	font-family: Azoft-Sans, Tahoma, sans-serif;
+}
+
+.container {
+	position: relative;
+
+	padding-top: 50px;
+}
+
+.preload {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+
+	padding-top: 30%;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	font-size: 2em;
+}
+
+.hidden {
+	display: none;
+}
+
+.label {
+	display: block;
+
+	text-align: center;
+}
+
+.input {
+	height: 30px;
+	width: 50%;
+	max-width: 400px;
+	margin: 30px auto 10px;
+	padding: 5px 10px;
+
+	display: block;
+
+	border: 1px solid #6065ae;
+	outline: none;
+
+	color: #737aae;
+	font-size: 1.2em;
+}
+
+.input:hover,
+.input:active {
+	outline: none;
+}
+
+.text {
+	color: darkblue;
+}
+
+.text-input {
+	font-size: 1.3em;
+}
+
+.cont-btn {
+	margin-top: 40px;
+
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	cursor: pointer;
+}
+
+.btn-sort {
+	height: 40px;
+	margin: 0 20px;
+	padding: 10px;
+
+	border: #6065ae;
+	color: darkblue;
+	outline: none;
+}
+
+.list {
+	list-style: none;
+
+	color: #737aae;
+	font-family: Tahoma, Arial, sans-serif;
+}
+
+@font-face {
+	font-family: "Azoft-Sans";
+	src: url(fonts/azoft-sans.woff2),
+	url(fonts/azoft-sans.woff);
+}
